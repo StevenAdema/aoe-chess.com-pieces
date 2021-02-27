@@ -1,0 +1,17 @@
+{
+	"name": "aoe chess",
+	"description": "aoe images for chess.com",
+	"version": "0.1.0",
+	"manifest_version": 2,
+	"icons": {
+		"128": "icon128.png"
+	},
+    "content_scripts": [
+        {
+            "matches": ["https://www.chess.com/*"],
+            "js": [
+                "background.js"
+            ]
+        }
+    ]
+}
