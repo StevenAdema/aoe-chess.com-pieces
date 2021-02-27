@@ -1,8 +1,10 @@
 console.log('starting...');
-var a = document.getElementsByClassName('wp');
-console.log(a);
+var w = document.getElementsByClassName('wp');
+console.log('white pieces');
+console.log(w);
 
-var b = document.getElementsByClassName('square-12');
+var b = document.getElementsByClassName('bp');
+console.log('black pieces');
 console.log(b);
 
 var style = document.createElement('style');

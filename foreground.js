@@ -1,1 +1,1 @@
-console.log("from foreground")
+console.log("foreground replacement")
